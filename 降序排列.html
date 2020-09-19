@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let arr = []
+        for (let i = 0; i < 10; i++) {
+            arr[i] = Math.floor(Math.random() * (110 - 10 + 1) + 10);
+        }
+        function sorting(p1, p2) {
+            return p2 - p1;
+        }
+        arr.sort(sorting);
+        console.log(arr);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
