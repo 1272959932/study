@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function time() {
+            let thisData = new Date();
+            let y = thisData.getFullYear();
+            let m = String(thisData.getMonth() + 1).padStart(2, '0');
+            let d = String(thisData.getDate()).padStart(2, '0');
+            let arr = `${y}-${m}-${d}`;
+            return arr
+        }
+        console.log(time());
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
